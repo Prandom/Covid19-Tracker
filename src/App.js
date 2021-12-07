@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer';
 import CountriesList from './components/countriesList';
 import StateData from './components/stateData';
 import Worldwidetotal from './components/worldwidetotal';
@@ -8,6 +9,8 @@ function App() {
       <Worldwidetotal/>
       <StateData/>
       <CountriesList/>
+      {/* <Chart/> */}
+      <Footer/>
     </div>
   );
 }
