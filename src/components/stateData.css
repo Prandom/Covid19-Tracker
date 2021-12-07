@@ -17,5 +17,5 @@
     @apply hover:bg-yellow-200;
 }
 .deaths{
-    @apply hover:bg-red-200;
+    @apply hover:bg-red-400;
 }

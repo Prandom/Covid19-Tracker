@@ -16,7 +16,7 @@ const Worldwidetotal = () => {
     },[]);
     return (
        <>
-            <div className="container-wrap flex flex-col shadow-md items-center justify-center mx-auto w-5/6 container">  
+            <div className="container-wrap flex flex-col shadow-md items-center justify-center mx-auto w-5/6 container bg-yellow-100 border-2 relative top-3">  
                 <div className="heading right flex justify-center">
                     <h1>COVID-19 Tracker</h1>
                 </div>

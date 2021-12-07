@@ -29,7 +29,7 @@ const CountriesList = () => {
     },[]);
     return (
        <>
-            <div className="wrap container w-5/6 flex flex-col items-center justify-center mx-auto ">
+            <div className="wrap container w-5/6 flex flex-col items-center justify-center mx-auto bg-yellow-100 mb-10 ">
                 <div className="comp3 right uppercase flex justify-center">
                     <h3>Country Wise Stats</h3>
                 </div>
