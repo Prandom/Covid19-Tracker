@@ -31,9 +31,9 @@ const StateData = () => {
                     <thead className="head">
                         <tr className="row row1">
                             <th className="cell">State</th>
-                            <th className="cell">Cases</th>
-                            <th className="cell">Deceased</th>
-                            <th className="cell">Recovered</th>
+                            <th className="cell ">Cases</th>
+                            <th className="cell ">Deceased</th>
+                            <th className="cell ">Recovered</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,9 +42,9 @@ const StateData = () => {
                                 return(
                                    <tr key={index} className="row">
                                         <td className="cell">{element.state}</td>
-                                        <td className="cell">{element.confirmed}</td>
-                                        <td className="cell">{element.deaths}</td>
-                                        <td className="cell">{element.recovered}</td>
+                                        <td className="cell cases">{element.confirmed}</td>
+                                        <td className="cell deaths">{element.deaths}</td>
+                                        <td className="cell recovered">{element.recovered}</td>
                                     </tr> 
                                 )
                             })

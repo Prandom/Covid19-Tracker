@@ -10,3 +10,12 @@
 .comp2{
     @apply lg:text-5xl text-3xl mt-5 font-bold flex justify-center tracking-wider;
 }
+.recovered{
+    @apply hover:bg-green-200;
+}
+.cases{
+    @apply hover:bg-yellow-200;
+}
+.deaths{
+    @apply hover:bg-red-200;
+}

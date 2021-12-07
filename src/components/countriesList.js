@@ -18,8 +18,8 @@ const CountriesList = () => {
     const getCovidDataCountry = async()=>{
         try{
             const response = await fetch(`https://disease.sh/v3/covid-19/countries/${country}`);
-            const apiData = await response.json();
-            setDataC(apiData);
+            const apiDataC = await response.json();
+            setDataC(apiDataC);
         } catch(err){
             console.log(err);
         }
