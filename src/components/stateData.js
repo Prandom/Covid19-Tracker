@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import "../components/stateData.css"
-
+import { motion } from 'framer-motion';
 // const requestOptions ={
 //     method: 'GET',
 //     dataType: 'jsonp',
@@ -23,7 +23,18 @@ const StateData = () => {
     },[]);
     return (
         <>
-            <div className="container mx-auto flex flex-col items-center justify-center mont mt-16 shadow-xl mb-10  bg-yellow-100 rounded-xl pb-6 w-5/6 px-6">
+            <motion.div className="container mx-auto flex flex-col items-center justify-center mont mt-16 shadow-xl mb-10  bg-yellow-100 rounded-xl pb-6 w-5/6 px-6"
+            animate={{
+                    x:5,
+                    opacity:1
+                }}
+                initial={{
+                    opacity:0,
+                    x:-50
+                }}
+                transition={{
+                    duration:0.9
+                }}>
                 <div className="comp2 right uppercase mb-10">
                     <h3>Indian States Data</h3>
                 </div>
@@ -73,7 +84,7 @@ const StateData = () => {
                         }
                     </div>
                 </div> */}
-            </div>
+            </motion.div>
         </>
     )
 }

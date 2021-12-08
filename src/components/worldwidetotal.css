@@ -13,3 +13,6 @@
 .comp1{
     @apply lg:text-5xl text-2xl font-bold flex justify-center tracking-wider;
 }
+/* .container-wrap{
+    transition: opacity 200ms ease-in-out;
+} */

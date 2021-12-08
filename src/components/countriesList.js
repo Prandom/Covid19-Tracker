@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import "../components/countriesList.css"
-
+import { motion } from 'framer-motion';
 
 const CountriesList = () => {
     const [data,setData] = useState([]);
@@ -29,7 +29,18 @@ const CountriesList = () => {
     },[]);
     return (
        <>
-            <div className="wrap container w-5/6 flex flex-col items-center justify-center mx-auto bg-yellow-100 mb-10 ">
+            <motion.div className="wrap container w-5/6 flex flex-col items-center justify-center mx-auto bg-yellow-100 mb-10 "
+            animate={{
+                    x:15,
+                    opacity:1
+                }}
+                initial={{
+                    opacity:0,
+                    x:-50
+                }}
+                transition={{
+                    duration:1
+                }}>
                 <div className="comp3 right uppercase flex justify-center">
                     <h3>Country Wise Stats</h3>
                 </div>
@@ -65,7 +76,7 @@ const CountriesList = () => {
                         </div>
                     </div>
                 </div>   
-            </div>
+            </motion.div>
        </>  
     )
 }
