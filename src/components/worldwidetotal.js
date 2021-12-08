@@ -23,7 +23,7 @@ const Worldwidetotal = () => {
                 <div className="comp1 right uppercase">
                     <h3>World Wide Stats</h3>
                 </div>
-                <div className="flex flex-col sm:flex-row mt-6 mont p-4 justify-evenly ">
+                <div className="flex flex-col sm:flex-row mt-6 mont py-4 px-8 justify-between object-contain">
                     <div className="data-cont bg-yellow-200 border-yellow-400">
                         Total Cases<div className="world">World</div>
                         <div className="data text-yellow-500 shadow-sm">{data.cases}</div>

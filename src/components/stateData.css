@@ -19,3 +19,13 @@
 .deaths{
     @apply hover:bg-red-400;
 }
+@media screen and (max-width:400px) {
+    .table1{
+    transform: scaleX(0.72);
+}
+}
+@media screen and (max-width:600px) and (min-width:400px) {
+    .table1{
+    transform: scaleX(0.90);
+}
+}

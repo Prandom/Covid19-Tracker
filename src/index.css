@@ -27,3 +27,11 @@
 .right{
     font-family: 'Righteous', cursive;
 }
+.data-cont{
+    transition: transform 100ms ease-in-out;
+}
+.data-cont:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+    @apply shadow-2xl;
+}

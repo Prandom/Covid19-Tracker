@@ -49,8 +49,8 @@ const CountriesList = () => {
                     }
                 </select> }
             
-                <div className="container-wrap flex flex-col shadow-md w-full">  
-                    <div className="flex flex-col sm:flex-row mt-6 mont p-4 justify-evenly ">
+                <div className="container-wrap flex flex-col shadow-md w-full items-center justify-center container mx-auto">  
+                    <div className="flex flex-col sm:flex-row mt-6 mont object-scale-down">
                         <div className="data-cont bg-yellow-200 ">
                             Total Cases<div className="country">{country}</div>
                             <div className="data text-yellow-500 shadow-sm">{dataC.cases}</div>
