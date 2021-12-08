@@ -51,6 +51,7 @@ const CountriesList = () => {
                         getCovidDataCountry();
                     }
                 }>
+                    <option className="option" value="select-option" key='' selected disabled hidden>Select Country</option>
                     {
                         data.map((element,index)=>{
                         return(
